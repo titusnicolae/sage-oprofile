@@ -3,4 +3,4 @@ sage bench.py
 	oprofile profiles each file separately, it avoids the sage start overhead
 	the opreport outputs are saved in the log directory
 
-	reset() in the sage/py files destroys all variables, including the ones in the benchmark program
+	reset() in the sage/py files destroys all variables, including the ones in the benchmark program, the benchmark fails
