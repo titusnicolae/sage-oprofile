@@ -1,0 +1,129 @@
+CPU: Core 2, speed 2538.98 MHz (estimated)
+Counted CPU_CLK_UNHALTED events (Clock cycles when not halted) with a unit mask of 0x00 (Unhalted core cycles) count 100000
+CPU_CLK_UNHALT...|
+  samples|      %|
+------------------
+     4527 36.6767 libxul.so
+     3887 31.4915 vmlinux-2.6.32-38-generic
+     1078  8.7337 libc-2.11.1.so
+      333  2.6979 Xorg (deleted)
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      173 51.9520 [vdso] (tgid:956 range:0xcf7000-0xcf8000)
+	      160 48.0480 Xorg (deleted)
+      312  2.5277 libflashplayer.so
+      289  2.3414 bash
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      282 97.5779 bash
+	        7  2.4221 [vdso] (tgid:18919 range:0x227000-0x228000)
+      253  2.0497 nvidia_drv.so
+      208  1.6852 libpthread-2.11.1.so
+      197  1.5960 firefox
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      175 88.8325 firefox
+	       17  8.6294 [vdso] (tgid:22112 range:0x36d000-0x36e000)
+	        3  1.5228 anon (tgid:22112 range:0x7790000-0x77a0000)
+	        1  0.5076 anon (tgid:22112 range:0x16534000-0x16544000)
+	        1  0.5076 anon (tgid:22112 range:0x33ea000-0x33fa000)
+      184  1.4907 libpython2.6.so.1.0
+      148  1.1991 libglib-2.0.so.0.2400.1
+      139  1.1261 ld-2.11.1.so
+       75  0.6076 libm-2.11.1.so
+       73  0.5914 libnvidia-glcore.so.295.20
+       59  0.4780 libgobject-2.0.so.0.2400.1
+       52  0.4213 libnspr4.so
+       41  0.3322 oprofile
+       40  0.3241 libmozsqlite3.so
+       40  0.3241 libGL.so.295.20
+       37  0.2998 plugin-container
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       35 94.5946 [vdso] (tgid:22321 range:0x690000-0x691000)
+	        2  5.4054 plugin-container
+       35  0.2836 libgdk-x11-2.0.so.0.2000.1
+       32  0.2593 libgtk-x11-2.0.so.0.2000.1
+       27  0.2187 libcairo.so.2.10800.10
+       20  0.1620 oprofiled
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       18 90.0000 oprofiled
+	        2 10.0000 [vdso] (tgid:8904 range:0x895000-0x896000)
+       19  0.1539 compiz
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       13 68.4211 compiz
+	        6 31.5789 [vdso] (tgid:1419 range:0xeee000-0xeef000)
+       18  0.1458 libX11.so.6.3.0
+       17  0.1377 nvidia
+       16  0.1296 libxcb.so.1.1.0
+       12  0.0972 librt-2.11.1.so
+       12  0.0972 libfreebl3.so
+       12  0.0972 libORBit-2.so.0.1.0
+       11  0.0891 libpynac-0.2.so.3.0.0
+        8  0.0648 sky2
+        7  0.0567 hid
+        7  0.0567 libfade.so
+        7  0.0567 libgconf-2.so.4.1.5
+        6  0.0486 libexpo.so
+        6  0.0486 libgthread-2.0.so.0.2400.1
+        6  0.0486 libvte.so.9.12.1
+        5  0.0405 gawk
+        5  0.0405 libfontconfig.so.1.4.4
+        5  0.0405 libstdc++.so.6.0.13
+        4  0.0324 libdbus-1.so.3.4.0
+        4  0.0324 libmozalloc.so
+        4  0.0324 libmurrine.so
+        4  0.0324 libgconfbackend-xml.so
+        4  0.0324 evdev_drv.so
+        3  0.0243 dash
+        3  0.0243 libgcc_s.so.1
+        3  0.0243 libanimation.so
+        3  0.0243 libstaticswitcher.so
+        3  0.0243 libsoftokn3.so
+        3  0.0243 libXrender.so.1.3.0
+        2  0.0162 libnss_dns-2.11.1.so
+        2  0.0162 libdecoration.so
+        2  0.0162 libdbus-glib-1.so.2.1.0
+        2  0.0162 libfreetype.so.6.3.22
+        2  0.0162 libpixman-1.so.0.16.4
+        2  0.0162 libextmod.so (deleted)
+        1  0.0081 cat
+        1  0.0081 binfmt_misc
+        1  0.0081 libncurses.so.5.7
+        1  0.0081 libdl-2.11.1.so
+        1  0.0081 libresolv-2.11.1.so
+        1  0.0081 expr
+        1  0.0081 id
+        1  0.0081 libmove.so
+        1  0.0081 libscale.so
+        1  0.0081 libsnap.so
+        1  0.0081 libnssutil3.so
+        1  0.0081 libplc4.so
+        1  0.0081 libplds4.so
+        1  0.0081 libfile.so
+        1  0.0081 libXdamage.so.1.1.0
+        1  0.0081 libXext.so.6.4.0
+        1  0.0081 gconfd-2
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        1 100.000 [vdso] (tgid:1391 range:0xf6b000-0xf6c000)
+        1  0.0081 libgio-2.0.so.0.2400.1
+        1  0.0081 libgvfscommon.so.0.0.0
+        1  0.0081 libpyglib-2.0-python2.6.so.0.0.0
+        1  0.0081 libstartup-notification-1.so.0.0.0
+        1  0.0081 libusbmuxd.so.1.0.0
+        1  0.0081 libwnck-1.so.22.3.26
+        1  0.0081 libglx.so.295.20
+        1  0.0081 libwfb.so (deleted)
+        1  0.0081 var.so
+        1  0.0081 element.so
+        1  0.0081 time.so

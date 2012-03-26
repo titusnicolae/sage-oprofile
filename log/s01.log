@@ -1,0 +1,134 @@
+CPU: Core 2, speed 2538.98 MHz (estimated)
+Counted CPU_CLK_UNHALTED events (Clock cycles when not halted) with a unit mask of 0x00 (Unhalted core cycles) count 100000
+CPU_CLK_UNHALT...|
+  samples|      %|
+------------------
+    14701 42.6871 libpynac-0.2.so.3.0.0
+     4341 12.6049 vmlinux-2.6.32-38-generic
+     3689 10.7117 libc-2.11.1.so
+     3565 10.3516 libpython2.6.so.1.0
+     1673  4.8579 libstdc++.so.6.0.13
+     1409  4.0913 pynac.so
+     1296  3.7632 nvidia_drv.so
+      497  1.4431 libflashplayer.so
+      482  1.3996 Xorg (deleted)
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      374 77.5934 [vdso] (tgid:956 range:0xcf7000-0xcf8000)
+	      108 22.4066 Xorg (deleted)
+      338  0.9814 libgmp.so.8.2.3
+      317  0.9205 libcsage.so
+      309  0.8972 integer.so
+      285  0.8276 bash
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      281 98.5965 bash
+	        4  1.4035 [vdso] (tgid:17648 range:0x9d3000-0x9d4000)
+      177  0.5140 libnvidia-glcore.so.295.20
+      161  0.4675 libcairo.so.2.10800.10
+      154  0.4472 ld-2.11.1.so
+      125  0.3630 oprofiled
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      121 96.8000 oprofiled
+	        4  3.2000 [vdso] (tgid:8904 range:0x895000-0x896000)
+      105  0.3049 oprofile
+       92  0.2671 libglib-2.0.so.0.2400.1
+       81  0.2352 libxul.so
+       77  0.2236 plugin-container
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       75 97.4026 [vdso] (tgid:22321 range:0x690000-0x691000)
+	        2  2.5974 plugin-container
+       72  0.2091 libGL.so.295.20
+       68  0.1975 libpthread-2.11.1.so
+       61  0.1771 element.so
+       38  0.1103 compiz
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       25 65.7895 [vdso] (tgid:1419 range:0xeee000-0xeef000)
+	       13 34.2105 compiz
+       36  0.1045 libvte.so.9.12.1
+       29  0.0842 libgobject-2.0.so.0.2400.1
+       27  0.0784 libpixman-1.so.0.16.4
+       26  0.0755 libgdk-x11-2.0.so.0.2000.1
+       24  0.0697 nvidia
+       16  0.0465 firefox
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	       10 62.5000 firefox
+	        2 12.5000 [vdso] (tgid:22112 range:0x36d000-0x36e000)
+	        2 12.5000 anon (tgid:22112 range:0x178ba000-0x178ca000)
+	        1  6.2500 anon (tgid:22112 range:0x208f6000-0x20906000)
+	        1  6.2500 anon (tgid:22112 range:0x5877000-0x5887000)
+       15  0.0436 libgtk-x11-2.0.so.0.2000.1
+       14  0.0407 libX11.so.6.3.0
+       11  0.0319 librt-2.11.1.so
+        9  0.0261 libfade.so
+        8  0.0232 tr
+        7  0.0203 libexpo.so
+        7  0.0203 libxcb.so.1.1.0
+        6  0.0174 libdbus-1.so.3.4.0
+        6  0.0174 libXrender.so.1.3.0
+        4  0.0116 libanimation.so
+        4  0.0116 libdecoration.so
+        4  0.0116 libmurrine.so
+        4  0.0116 parent.so
+        3  0.0087 grep
+        3  0.0087 gawk
+        3  0.0087 libscale.so
+        3  0.0087 libbfd-2.20.1-system.20100303.so
+        3  0.0087 _gtk.so
+        3  0.0087 libglx.so.295.20
+        3  0.0087 libwfb.so (deleted)
+        3  0.0087 coerce.so
+        2  0.0058 dash
+        2  0.0058 libm-2.11.1.so
+        2  0.0058 python2.6
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        2 100.000 [vdso] (tgid:9318 range:0x59d000-0x59e000)
+        2  0.0058 libresize.so
+        2  0.0058 libresizeinfo.so
+        2  0.0058 libscaleaddon.so
+        2  0.0058 libORBit-2.so.0.1.0
+        2  0.0058 evdev_drv.so
+        2  0.0058 parser.so
+        1  0.0029 ls
+        1  0.0029 binfmt_misc
+        1  0.0029 libncurses.so.5.7
+        1  0.0029 libdl-2.11.1.so
+        1  0.0029 ohci1394
+        1  0.0029 libezoom.so
+        1  0.0029 libneg.so
+        1  0.0029 libplace.so
+        1  0.0029 libsession.so
+        1  0.0029 libsvg.so
+        1  0.0029 libwall.so
+        1  0.0029 libworkarounds.so
+        1  0.0029 libmozalloc.so
+        1  0.0029 libnspr4.so
+        1  0.0029 UTF-16.so
+        1  0.0029 libfile.so
+        1  0.0029 libXfixes.so.3.1.0
+        1  0.0029 libgio-2.0.so.0.2400.1
+        1  0.0029 libgthread-2.0.so.0.2400.1
+        1  0.0029 libgvfscommon.so.0.0.0
+        1  0.0029 _gobject.so
+        1  0.0029 coerce_dict.so
+        1  0.0029 sage_object.so
+        1  0.0029 expression.so
+        1  0.0029 ring.so
+        1  0.0029 python
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        1 100.000 [vdso] (tgid:15226 range:0x35d000-0x35e000)
+        1  0.0029 time.so

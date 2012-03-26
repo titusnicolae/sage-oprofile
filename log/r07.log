@@ -1,0 +1,233 @@
+CPU: Core 2, speed 2538.98 MHz (estimated)
+Counted CPU_CLK_UNHALTED events (Clock cycles when not halted) with a unit mask of 0x00 (Unhalted core cycles) count 100000
+CPU_CLK_UNHALT...|
+  samples|      %|
+------------------
+   234992 48.0586 libpython2.6.so.1.0
+    56989 11.6549 libpynac-0.2.so.3.0.0
+    36380  7.4401 libc-2.11.1.so
+    32937  6.7360 libxul.so
+    21339  4.3641 vmlinux-2.6.32-38-generic
+     9873  2.0191 coerce.so
+     8963  1.8330 expression.so
+     8854  1.8107 libcsage.so
+     8312  1.6999 pynac.so
+     8016  1.6394 libstdc++.so.6.0.13
+     6646  1.3592 parent.so
+     5219  1.0673 nvidia_drv.so
+     4828  0.9874 integer.so
+     4515  0.9234 libm-2.11.1.so
+     4373  0.8943 libpthread-2.11.1.so
+     4347  0.8890 libflashplayer.so
+     3424  0.7002 Xorg (deleted)
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	     2080 60.7477 [vdso] (tgid:956 range:0xcf7000-0xcf8000)
+	     1344 39.2523 Xorg (deleted)
+     3353  0.6857 element.so
+     2715  0.5552 libgmp.so.8.2.3
+     2601  0.5319 ring.so
+     2406  0.4921 coerce_dict.so
+     2131  0.4358 oprofiled
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	     2116 99.2961 oprofiled
+	       15  0.7039 [vdso] (tgid:8904 range:0x895000-0x896000)
+     2107  0.4309 integer_ring.so
+     1311  0.2681 firefox
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	     1192 90.9230 firefox
+	       90  6.8650 [vdso] (tgid:22112 range:0x36d000-0x36e000)
+	        7  0.5339 anon (tgid:22112 range:0x8bd0000-0x8be0000)
+	        6  0.4577 anon (tgid:22112 range:0x6859000-0x6869000)
+	        5  0.3814 anon (tgid:22112 range:0x10943000-0x10953000)
+	        3  0.2288 anon (tgid:22112 range:0xae6a000-0xae7a000)
+	        2  0.1526 anon (tgid:22112 range:0x1b4b8000-0x1b4c8000)
+	        2  0.1526 anon (tgid:22112 range:0x1c453000-0x1c463000)
+	        2  0.1526 anon (tgid:22112 range:0x38cd000-0x38dd000)
+	        1  0.0763 anon (tgid:22112 range:0x130f5000-0x13105000)
+	        1  0.0763 anon (tgid:22112 range:0xf3da000-0xf3ea000)
+     1256  0.2569 libglib-2.0.so.0.2400.1
+     1017  0.2080 oprofile
+     1002  0.2049 libnvidia-glcore.so.295.20
+      740  0.1513 libfontconfig.so.1.4.4
+      661  0.1352 libGL.so.295.20
+      597  0.1221 operator.so
+      583  0.1192 libgobject-2.0.so.0.2400.1
+      503  0.1029 libcairo.so.2.10800.10
+      481  0.0984 sage_object.so
+      479  0.0980 plugin-container
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      449 93.7370 [vdso] (tgid:22321 range:0x690000-0x691000)
+	       30  6.2630 plugin-container
+      462  0.0945 coerce_maps.so
+      413  0.0845 libnspr4.so
+      404  0.0826 libgdk-x11-2.0.so.0.2000.1
+      283  0.0579 bash
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      277 97.8799 bash
+	        6  2.1201 [vdso] (tgid:19553 range:0x861000-0x862000)
+      279  0.0571 randstate.so
+      260  0.0532 nvidia
+      241  0.0493 libgtk-x11-2.0.so.0.2000.1
+      235  0.0481 libX11.so.6.3.0
+      202  0.0413 compiz
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	      130 64.3564 compiz
+	       72 35.6436 [vdso] (tgid:1419 range:0xeee000-0xeef000)
+      197  0.0403 _random.so
+      189  0.0387 parent_old.so
+      180  0.0368 librt-2.11.1.so
+      178  0.0364 ld-2.11.1.so
+      177  0.0362 libpixman-1.so.0.16.4
+      154  0.0315 libxcb.so.1.1.0
+       85  0.0174 libdbus-1.so.3.4.0
+       72  0.0147 libfade.so
+       63  0.0129 libvte.so.9.12.1
+       62  0.0127 libmozalloc.so
+       43  0.0088 libplds4.so
+       43  0.0088 libfreetype.so.6.3.22
+       39  0.0080 libXrender.so.1.3.0
+       39  0.0080 libpangoft2-1.0.so.0.2800.0
+       38  0.0078 hid
+       37  0.0076 libpango-1.0.so.0.2800.0
+       37  0.0076 evdev_drv.so
+       27  0.0055 libmozsqlite3.so
+       26  0.0053 libanimation.so
+       25  0.0051 libgthread-2.0.so.0.2400.1
+       25  0.0051 libwfb.so (deleted)
+       21  0.0043 rational.so
+       20  0.0041 libdecoration.so
+       20  0.0041 libmurrine.so
+       19  0.0039 sky2
+       18  0.0037 libgio-2.0.so.0.2400.1
+       17  0.0035 libwall.so
+       17  0.0035 libextmod.so (deleted)
+       16  0.0033 libexpo.so
+       16  0.0033 libORBit-2.so.0.1.0
+       13  0.0027 libstaticswitcher.so
+       12  0.0025 libgcc_s.so.1
+       12  0.0025 python2.6
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        7 58.3333 python2.6
+	        5 41.6667 [vdso] (tgid:9318 range:0x59d000-0x59e000)
+       12  0.0025 tr
+       12  0.0025 libgvfscommon.so.0.0.0
+       11  0.0022 libscale.so
+       10  0.0020 libfile.so
+       10  0.0020 libdbus-glib-1.so.2.1.0
+        9  0.0018 usb_storage
+        9  0.0018 usbhid
+        8  0.0016 libezoom.so
+        8  0.0016 libvpswitch.so
+        8  0.0016 libssl3.so
+        8  0.0016 libXfixes.so.3.1.0
+        7  0.0014 libresize.so
+        7  0.0014 libsvg.so
+        7  0.0014 libfreebl3.so
+        7  0.0014 libplc4.so
+        7  0.0014 wnck-applet
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        7 100.000 [vdso] (tgid:1454 range:0x155000-0x156000)
+        7  0.0014 hald-addon-input
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        5 71.4286 [vdso] (tgid:1286 range:0xca9000-0xcaa000)
+	        2 28.5714 hald-addon-input
+        7  0.0014 libXext.so.6.4.0
+        7  0.0014 libstartup-notification-1.so.0.0.0
+        6  0.0012 libworkarounds.so
+        6  0.0012 libwnck-1.so.22.3.26
+        6  0.0012 libxklavier.so.16.0.0
+        5  0.0010 libudev.so.0.6.1
+        5  0.0010 libneg.so
+        5  0.0010 libnss3.so
+        5  0.0010 libnssutil3.so
+        4 8.2e-04 dash
+        4 8.2e-04 ohci1394
+        4 8.2e-04 gawk
+        4 8.2e-04 libresizeinfo.so
+        4 8.2e-04 libsoftokn3.so
+        3 6.1e-04 libresolv-2.11.1.so
+        3 6.1e-04 libmove.so
+        3 6.1e-04 libplace.so
+        3 6.1e-04 libsession.so
+        3 6.1e-04 libcanberra-gtk-module.so
+        3 6.1e-04 libgconf-2.so.4.1.5
+        3 6.1e-04 libgdk_pixbuf-2.0.so.0.2000.1
+        3 6.1e-04 libmetacity-private.so.0.0.0
+        3 6.1e-04 libpyglib-2.0-python2.6.so.0.0.0
+        3 6.1e-04 _gtk.so
+        3 6.1e-04 libglx.so.295.20
+        2 4.1e-04 grep
+        2 4.1e-04 ls
+        2 4.1e-04 snd_hda_intel
+        2 4.1e-04 glIimcQw (deleted)
+        2 4.1e-04 gtk-window-decorator
+        2 4.1e-04 libccp.so
+        2 4.1e-04 libregex.so
+        2 4.1e-04 libscaleaddon.so
+        2 4.1e-04 libXss.so.1.0.0
+        2 4.1e-04 libpangocairo-1.0.so.0.2800.0
+        2 4.1e-04 category_object.so
+        1 2.0e-04 cat
+        1 2.0e-04 libncurses.so.5.7
+        1 2.0e-04 libpng12.so.0.42.0 (deleted)
+        1 2.0e-04 libnss_dns-2.11.1.so
+        1 2.0e-04 dirname
+        1 2.0e-04 gnome-panel
+        1 2.0e-04 gnome-power-manager
+        1 2.0e-04 gnome-screensaver
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        1 100.000 [vdso] (tgid:1500 range:0x6fd000-0x6fe000)
+        1 2.0e-04 libgnomecompat.so
+        1 2.0e-04 libgconf.so
+        1 2.0e-04 liba11y-keyboard.so
+        1 2.0e-04 libmouse.so
+        1 2.0e-04 gnome-settings-daemon
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        1 100.000 [vdso] (tgid:1398 range:0xd94000-0xd95000)
+        1 2.0e-04 hald-addon-storage
+        1 2.0e-04 libXdamage.so.1.1.0
+        1 2.0e-04 libbonobo-2.so.0.0.0
+        1 2.0e-04 libbonoboui-2.so.0.0.0
+        1 2.0e-04 libcompizconfig.so.0.0.0
+        1 2.0e-04 libgconfbackend-xml.so
+        1 2.0e-04 gconfd-2
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        1 100.000 [vdso] (tgid:1391 range:0xf6b000-0xf6c000)
+        1 2.0e-04 libgnome-desktop-2.so.17.1.0
+        1 2.0e-04 _gobject.so
+        1 2.0e-04 udisks-daemon
+	CPU_CLK_UNHALT...|
+	  samples|      %|
+	------------------
+	        1 100.000 [vdso] (tgid:1446 range:0xfd7000-0xfd8000)
+        1 2.0e-04 matrix_integer_dense.so
+        1 2.0e-04 matrix_mod2_dense.so
+        1 2.0e-04 complex_interval.so
+        1 2.0e-04 multi_polynomial_libsingular.so
+        1 2.0e-04 coerce_actions.so
+        1 2.0e-04 parent_gens.so
+        1 2.0e-04 time.so
